@@ -1,0 +1,29 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+  background: floralwhite;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: white;
+
+}
+:hover::-webkit-scrollbar {
+
+}
+::-webkit-scrollbar-track {
+ background: #f8fff9;
+
+  border-radius: 100px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  background: #5942f4;
+  border-radius: 100px;
+
+
+}
+ body{
+   font-family: 'Archivo', sans-serif;
+ }
