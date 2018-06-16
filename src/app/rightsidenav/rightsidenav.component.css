@@ -1,0 +1,26 @@
+.image{
+  width:200px;
+  height:250px;
+  background: url("../../assets/profile.jpg");
+  background-size: cover;
+}
+.intro{
+  margin-top: 20px;
+  padding:10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color:white;
+  text-align: center;
+  width:170px;
+  font-family: "PT Sans";
+
+}
+.cvbutton:hover{
+  background: red;
+  color: white;
+}
+.image:hover{
+
+  opacity: .8;
+}

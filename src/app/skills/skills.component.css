@@ -1,0 +1,26 @@
+:host {
+  margin-top: 10%;
+  display: flex;
+  opacity: .8;
+  border-radius: 10px;
+  padding: 5%;
+}
+.skills-card {
+  margin: auto;
+
+}
+.singledata{
+  padding: 10px;
+  font-size: 15px;
+}
+.cardtitle{
+  border-radius: 10px;
+  color:#5942f4;
+  font-size: 30px;
+  background: darkcyan;
+  color: white;
+  padding: 10px;
+}
+.contents{
+  font-size: 15px;
+}

@@ -1,0 +1,19 @@
+<div class="edu">
+  <div id="title"><strong>Workshops</strong></div>
+  <mat-tab-group  >
+
+    <div *ngFor="let tab of datafull" >
+      <div >
+        <mat-tab  label={{tab.Workshop}} >
+          <div id="content">
+            <strong>Location:</strong> {{tab.location}}
+            <mat-divider></mat-divider>
+            <strong>Keyskills:</strong> {{tab.keyskills}}
+            <mat-divider></mat-divider>
+            <strong>Discription:</strong> {{tab.discription}}
+          </div>
+        </mat-tab>
+      </div>
+    </div>
+  </mat-tab-group>
+</div>

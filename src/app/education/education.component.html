@@ -1,0 +1,19 @@
+<div class="edu">
+  <div id="title"><strong>Education</strong></div>
+<mat-tab-group  >
+
+  <div *ngFor="let tab of tabdata" >
+    <div >
+    <mat-tab  label={{tab.name}} >
+      <div id="content">
+    <strong>School/College:</strong> {{tab.school}}
+      <mat-divider></mat-divider>
+      <strong>Subject:</strong> {{tab.Subjects}}
+      <mat-divider></mat-divider>
+      <strong>Percentage:</strong> {{tab.Percentage}}
+      </div>
+    </mat-tab>
+  </div>
+  </div>
+</mat-tab-group>
+</div>

@@ -1,0 +1,24 @@
+<div class="interestdiv">
+<mat-card class="interest-card">
+  <mat-card-header>
+
+    <mat-card-title class="cardtitle">Interests</mat-card-title>
+
+  </mat-card-header>
+
+  <mat-card-content class="contents">
+    <div *ngFor="let data of det">
+      <div class="elements">
+      <strong>{{data.name}} :</strong>
+      {{data.value}}
+    </div>
+      <mat-divider></mat-divider>
+    </div>
+  </mat-card-content>
+
+</mat-card>
+
+</div>
+
+
+

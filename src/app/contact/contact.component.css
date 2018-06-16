@@ -1,0 +1,49 @@
+:host {
+  color:Black;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 10%;
+  margin-left: 4%;
+
+}
+.contact{
+  margin:auto;
+  opacity: 1;
+}
+#title{
+  background:white;
+  opacity: 0.5;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+#title:hover{
+  opacity: 0.6;
+  background: black;
+  color: white;
+}
+strong{
+  margin: 20px;
+text-align: right;
+}
+#details{
+  background: darkkhaki ;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  color:black;
+  opacity: 0.8;
+  text-align: right;
+}
+#details:hover{
+  background: darkcyan;
+  opacity: 0.8;
+}
+.subject{
+  padding: 10px;
+  text-align: left;
+}
+
+

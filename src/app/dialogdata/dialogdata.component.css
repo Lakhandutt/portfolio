@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+   text-align: center;
+}
+h2{
+  background: #5942f4 ;
+  border-radius: 20px;
+}
+.discription{
+  margin: auto;
+}
+.data{
+margin:2%;
+
+}
+button{
+  margin-left: 50%;
+}
+button:hover{
+  background: #ff3c5e;
+}

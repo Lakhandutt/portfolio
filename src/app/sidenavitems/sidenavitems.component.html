@@ -1,0 +1,15 @@
+<div >
+  <div >
+<div *ngFor="let item of menu">
+<div class="menuitems" >
+
+    <button mat-fab color="primary" routerLink={{item.compattached}} >
+      <mat-icon>{{item.icon}}</mat-icon>
+    </button>
+ <h5>{{item.name}}</h5>
+
+</div>
+</div>
+  </div>
+
+</div>

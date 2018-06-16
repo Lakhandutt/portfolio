@@ -1,0 +1,40 @@
+:host {
+  opacity: 0.8;
+  color: black;
+  display: flex;
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 5%;
+
+}
+mat-divider{
+  margin: 10px;
+
+}
+#content{
+  margin: 20px;
+}
+
+.edu{
+  margin: auto;
+
+  background: white;
+  border-radius: 10px;
+
+}
+#content:hover{
+  color: red;
+}
+#title{
+
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  background: darkcyan;
+  padding: 5%;
+
+}
+label{
+
+}
+
